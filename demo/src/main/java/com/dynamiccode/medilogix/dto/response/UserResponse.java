@@ -17,4 +17,8 @@ public class UserResponse {
     private String email;
     private Boolean isEnabled;
     private Role role;
+	public static Object builder() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

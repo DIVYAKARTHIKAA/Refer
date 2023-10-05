@@ -36,10 +36,7 @@ public class UserController {
         List<UserResponse> userList = userService.getAllUsers();
         return !userList.isEmpty() ? ResponseEntity.ok().body(userList) : ResponseEntity.noContent().build();
     }
-    @PostMapping("/post")
-    public UserModel saveUser(@RequestBody UserModel userModel) {
-    	return userService.saveUser(userModel);
-    }
+   
 
 
     @GetMapping("/{uid}")

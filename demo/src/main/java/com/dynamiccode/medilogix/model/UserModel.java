@@ -100,5 +100,17 @@ public class UserModel implements UserDetails {
         return true;
     }
 
+	public static Object builder() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getUid() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
  
 }

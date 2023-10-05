@@ -14,10 +14,14 @@ public interface UserService {
 
     UserResponse updateUser(UserRequest request, Long uid);
 
-    boolean deleteProduct(Long uid);
+    
 
 	
 
-	UserModel saveUser(UserModel userModel);
+	
+
+	boolean deleteProduct(Long uid);
+
+
 
 }
